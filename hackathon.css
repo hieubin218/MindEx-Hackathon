@@ -1,0 +1,223 @@
+body {
+    /* background-color: wheat; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2876f9;
+    background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
+    
+}
+
+
+
+.navbar-brand {
+    float: left;
+    padding-left: 10px;
+    padding-right: 170px;
+    width: 60px;
+}
+
+
+#navbarNavDropdown {
+    margin: 5px;
+    padding-left: 10px;
+   
+
+}
+
+
+.d-inline-block {
+    border: 2.5px solid red;
+    border-radius: 25%;
+
+}
+
+
+.nav-item:hover {
+    cursor: pointer;
+    
+}
+
+
+
+/* LOGO and Company Name */
+.aligned {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+
+}
+
+.aligned > span {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+#MoviesHeader {
+    width: auto;
+    height: 50px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#empty-box {
+    background-color: wheat;
+    width: auto;
+    height: 50px;
+    padding-top: 20px;
+}
+
+
+
+
+#MovieContainerHeader {
+    border: 1px solid black;
+    border-radius: 50px 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: fit-content;
+    font-weight: bold;
+    background-color: coral;
+    
+}
+
+
+.movie-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: orange;
+}
+
+
+.movie-wrap {
+    border: 2px dotted black;
+    border-radius: 15px 15px 50px 15px;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    
+}
+
+
+
+.movie-wrap:hover {
+    border-color: red;
+    background-color: yellow;
+    margin: 20px;
+
+}
+
+
+
+.movieImages {
+    width: 240px;
+    height: 280px;
+    border: 1px solid black;
+}
+
+.InfoMovies {
+    padding-left: 20px;
+}
+
+
+.MovieName {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    color: red;
+    width: 230px;
+}
+
+
+/*BUTTON (TRAILER, TICKET) Decoration */
+.btn {border-radius: 25px 0px;}
+
+
+
+
+/*============================================= */
+/* SECOND HTML FILE: TRAILERMOVIES.HTML */
+
+
+#YoutubeTrailerFilm > iframe {
+    padding-top: none;
+    margin-left: 190px;
+    width: 1000px; 
+    height: 500px; 
+}
+
+#MoviesTrailer {
+    border: 1px solid black;
+    text-align: center;
+    height: fit-content;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    height: 60px;
+    background-color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/* Movie Container includes Movie Image and Movie Description */
+#MovieInformation-container {
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: lightsalmon;
+    display: flex;
+
+}
+
+#AdsImage, #AdsMovieDescription-container {
+    margin: 15px;
+    flex: 50%;
+    padding: 10px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px black ;
+    
+}
+
+#AdsMovieDescription-container {background-color: orange;}
+
+#Description-header {
+    text-align: center;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
+    
+    
+}
+
+#Description-text {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+
+
+
+
+
+
+
+
+
