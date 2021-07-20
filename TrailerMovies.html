@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Movie Trailer </title>
+
+        <!-- Link to Multiple Boostrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- Link to Website CSS -->
+        <link href="hackathon.css" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <!-- WEBSITE BANNER -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark border-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color:yellow"> LOTTE CINEMA </a>
+                <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               
+                
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">About Lottle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Promotion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Customer Service</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            MEMBERSHIP
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="https://www.lottecinemavn.com/LCHS/Contents/Member/Login.aspx" target="_blank">SIGN IN (MemberStar)</a></li>
+                                <li><a class="dropdown-item" href="#">SIGN UP (New Member)</a></li>
+                                <li><a class="dropdown-item" href="https://www.lottecinemavn.com/LCHS/Contents/Etc/member-clause.aspx" target="_blank">Membership Policies</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- LOGO AND COMPANY NAME -->
+        <div class="aligned" style="font-family:'Times New Roman', Times, serif">
+            <img src="data:image/png;base64,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"
+                     width="50" height="50" class="d-inline-block" alt="logo">
+            <span> <font size="+2"> LOTTE CINEMA COOPERATION </font> </span>
+
+        </div>
+
+        <hr style="border-top: 2px solid black;">
+
+        <!-- <h5 id="MoviesHeader"> MOVIE TRAILER </h5> -->
+        
+
+        <!-- Youtube Trailer Link URL of each Movie When Clicked -->
+        <div id="YoutubeTrailerFilm">
+            <h5 id="MoviesTrailer"> MOVIE TRAILER </h5>
+            <!-- <iframe  src="https://www.youtube.com/embed/jluSu8Rw6YE" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe> -->
+
+            
+            <iframe id="embed-responsive-item" src="" allowfullscreen></iframe>
+
+
+        </div>
+
+        <div id="MovieInformation-container">
+
+            <!-- This Tag replaced by JS for each Movie Image -->
+            <div id="AdsImage">
+               <h5 id="Movie-Name"> </h5>
+               <img id="Ads" src="">
+
+               <h6 id="duration"></h6>
+               <h6 id="nation"></h6>
+               <h6 id="typeOfMovie"></h6>
+               <h6 id="price"></h6>
+
+            </div>
+
+            <div id="AdsMovieDescription-container">
+
+                <!-- This tag is replaced by JS for each Movie Name -->
+
+
+                <div id="Description-Container">
+
+                    <h5 id="Description-header">DESCRIPTION</h5>
+
+                    <!--This tag is replace by JS for each Movie description -->
+                    <p id="Description-text"> </p>
+                </div>
+
+            </div>
+        </div>
+
+        <script type="module" src="TrailerMovies.js"></script>
+
+    </body>
+</html>
